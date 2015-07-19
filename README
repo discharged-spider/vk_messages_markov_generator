@@ -1,0 +1,3 @@
+Program in python that generates texts by Markov algorethm initialized by vk messages.
+
+To use run firstly main.py, then generator.py.
