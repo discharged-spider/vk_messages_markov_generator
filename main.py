@@ -1,3 +1,4 @@
+import os
 from time import sleep
 from log_in import vk_log_in
 
@@ -10,6 +11,7 @@ AIM_SEARCH = USER_ID != 'ALL'
 
 DEBUG = False #|| True
 
+os.mkdir ('data')
 output = open ('data\my_messages_with_' + USER_ID + '.txt', 'w', encoding='utf-8')
 
 COUNT = 200
